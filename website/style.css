@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+.inputs-container{
+    display: grid;
+}
+#app{
+    /* display: grid; */
+    /* grid-auto-rows: minmax(150px, auto); */
+    /* grid-template-columns:  */
+    height:100%;
+    justify-content: center;
+    /* grid-gap: 1em; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    background-image: url('photo.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.holder{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.entry{
+    background: rgb(107 87 59 / 40%);
+    width: 68%;
+    margin-left: 17%;
+    height: 35%;
+    border-radius: 50px 0;
+    overflow: hidden;
+    color: #000000a6;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 0px 2px 7px 5px #444;
+    display: none;
+    color: #510b0b;
+
+}
+
+#city {
+    float: right;
+    position: absolute;
+    left: 53%;
+    width: 40%;
+    font-size: xx-large;
+    top: 20%;
+    background-color: #16768c4f;
+    padding: 16px;
+    border-radius: 50px 0;
+}
+
+#date{
+    position: absolute;
+    left: 79%;
+    top: 3%;
+    color: white;
+}
+
+
+#description {
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+    font-size: xx-large;
+    background-color: #16768c4f;
+    padding: 16px;
+    width: 25%;
+    text-align: center;
+    padding: 16px;
+    border-radius: 50px 0;
+}
+
+#temp{
+    float: left;
+    position: absolute;
+    left: 5%;
+    width: 25%;
+    font-size: xx-large;
+    top: 20%;
+    background-color: #16768c4f;
+    padding: 16px;
+    border-radius: 50px 0;
+}
+
+#content{
+    position: absolute;
+    left: 53%;
+    width: 40%;
+    bottom: 9px;
+    font-size: xx-large;
+    background-color: #16768c4f;
+    padding: 16px;
+    border-radius: 50px 0;
+}
+
+.headline {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #40338d54;
+    padding: 10px;
+    color: #a69034;
+    height: 51px;
+    border-radius: 50px 0;
+    width: 60%;
+    margin-left: 18%;
+}
+.title{
+    background-color: #8f000026;
+    padding: 2px;
+    color: indianred;
+    border-radius: 50px 0;
+    width: 44%;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    color: #f5deb38f;
+
+}
+
+input{
+    display: block;
+    height: 60px;
+    width: 590px;
+    background: #6f54436e;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+    margin: auto;
+    border-radius: 21px;
+    color: #ffc107;
+}
+
+button{
+    width: 230px;
+    height: 65px;
+    background: #0b3c6287;
+    border-radius: 50px;
+    color: #2196f3;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 7px 5px #444;
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    display: block;
+    height: 60px;
+    width: 590px;
+    background: #6f54436e;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+    margin: auto;
+    border-radius: 21px;
+    color: #ffc107;
+    height: 100px;
+
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f5deb38f;
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f5deb38f; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f5deb38f; 
+    font-family: 'Oswald', sans-serif;
+
+}
+.feel {
+    margin: 0;
+}
